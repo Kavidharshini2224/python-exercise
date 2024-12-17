@@ -1,0 +1,5 @@
+L=[2,23,24,25,31,34,26]
+print(L)
+m=min(L)
+print("The Minimum elements is : ",m)
+print("Index of minimum element is : ",L.index(m))

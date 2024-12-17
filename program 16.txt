@@ -1,0 +1,9 @@
+L=[2,56,78,99,82,24,22,30]
+n=int(input("Enter the number to be searched : "))
+found=0
+for x in L:
+    if x==n:
+        print("Item found at position : ",L.index(n)+1)
+        found=1
+    if found==0:
+        print("Item not found")

@@ -1,0 +1,4 @@
+from statistics import mean
+L=[2,35,24]
+m=mean(L)
+print("Mean of list is : ",m)
